@@ -1,0 +1,27 @@
+{
+  "outputFiles": [
+    {
+      "file": "build/gecko.txt"
+    }
+  ],
+  "codes": [
+    {
+      "name": "hide-ui",
+      "authors": [
+        "mut",
+        "ty"
+      ],
+      "description": [
+        "hides the in-game hud"
+      ],
+      "build": [
+        {
+          "type": "inject",
+          "address": "802f6690",
+          "sourceFile": "hide-ui.asm",
+          "annotation": "inject hide-ui asm"
+        }
+      ]
+    }
+  ]
+}
